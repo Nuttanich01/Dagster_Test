@@ -1,0 +1,8 @@
+
+version: 2
+
+sources:
+  - name: Test_DBT
+    tables:
+      - name: extract
+      

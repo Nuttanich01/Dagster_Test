@@ -1,0 +1,21 @@
+demo_test_dbt:
+  outputs:
+    dev:
+      account: vu12968.ap-southeast-1
+      database: ANALYTICS 
+      password: NUT@0968816931nut
+      role: ACCOUNTADMIN
+      schema: test
+      threads: 1
+      type: snowflake
+      user: Nuttanich01
+      warehouse: TESTDBTDEMO
+  target: dev
+
+# jaffle_shop:
+#   target: local
+#   outputs:
+#     local:
+#       type: duckdb
+#       path: tutorial.duckdb
+#       schema: jaffle_shop

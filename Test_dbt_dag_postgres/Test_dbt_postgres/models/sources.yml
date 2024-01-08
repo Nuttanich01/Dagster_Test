@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: raw_table
+      - name: extract_table
+      - name: transform_table
+
+      
